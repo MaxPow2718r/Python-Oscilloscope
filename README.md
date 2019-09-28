@@ -14,5 +14,5 @@ You have to give the program the amplitude, angular frequency and time base of t
 
 The objective of this project its make a basic python scrip with multiple modules, also this is an opportunity to try markdown (that is the reason tbh).
 
-I am not quite sure when this is gonna be finish, neither if I'm gonna finish this project like with every other code that I write.
+I am not quite sure when I'm gonna finish this project, neither if I'm gonna finish this project.
 
