@@ -2,7 +2,7 @@
 
 Oscilloscope is a short python program use to analyses  simple input signals generate whit numpy (maybe in the future can be added an input from an USB).
 
-##"Installation"
+##Installation
 
 You can download or clone this repository an make it work for sure.
 
