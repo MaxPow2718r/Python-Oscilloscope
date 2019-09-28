@@ -2,8 +2,6 @@ import numpy as np
 from matplotlib.lines import Line2D
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import probe
-
 
 class Scope(object):
     def __init__(self, ax, maxt=2, dt=0.02):
@@ -32,15 +30,3 @@ class Scope(object):
         return self.line,
 
 
-t = np.linspace(0, 10, 100)
-gain = 1
-omega = 1
-
-fig, ax = plt.subplots()
-scope = Scope(ax)
-
-# pass a generator in "emitter" to produce data for the update func
-ani = animation.FuncAnimation(fig, scope.update, probe.emitter(gain, omega, t), interval=10,
-                              blit=True)
-
-plt.show()
